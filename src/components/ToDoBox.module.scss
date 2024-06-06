@@ -1,0 +1,57 @@
+.toDoBoxWrapper{
+    background-color: #222222;
+    width: 50%;
+    height: 600px;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 50px;
+    text-align: center;
+    overflow: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(54, 54, 54) rgba(0, 0, 0, 0);
+    overflow-x: hidden; /* Скрываем горизонтальный scrollbar */
+}
+
+
+
+.toDoBoxWrapper input{
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 20px;
+    width: 50%;
+}
+
+.toDoBoxWrapper button{
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 30px;
+    background: #fd7d42;
+    color: white;
+    cursor: pointer;
+}
+
+.toDoBoxTodos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.toDoSort{
+   display: flex;
+    justify-content: center;
+   color: white;
+}
+
+.toDoSort p{
+    margin-right: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.toDoSort p:hover{
+    color: #fd7d42;
+    text-decoration: underline;
+}
